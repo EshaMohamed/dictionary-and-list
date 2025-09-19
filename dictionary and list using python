@@ -1,0 +1,19 @@
+print("welcome python program in dictionary and list")
+
+my_dict = {"brand": "iphone", "model" : "ultra 5g", "year":2025}
+print(my_dict["model"])
+print(my_dict.get("year"))
+print("dictionary in data structure:",my_dict)
+#item will be changed
+my_dict["year"]=2026
+print("item will be changed:",my_dict["year"])
+#adding a item
+my_dict["color"]="black and white"
+print("adding a item:",my_dict["color"])
+#remove a item
+my_dict.pop("model")
+print("poping a item:",my_dict)
+#list in changed the value
+lst=[1,2,3,4,5,6]
+lst[3]=33
+print("list:",lst)
