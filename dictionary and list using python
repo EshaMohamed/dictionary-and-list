@@ -1,8 +1,8 @@
 print("welcome python program in dictionary and list")
 
 my_dict = {"brand": "iphone", "model" : "ultra 5g", "year":2025}
-print(my_dict["model"])
-print(my_dict.get("year"))
+print("find the model in my dict:",my_dict["model"])
+print("find the year in my dict:",my_dict.get("year"))
 print("dictionary in data structure:",my_dict)
 #item will be changed
 my_dict["year"]=2026
